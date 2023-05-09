@@ -1,0 +1,386 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F897F3829FE508400ABF9F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F897F3729FE508400ABF9F9 /* AppDelegate.m */; };
+		8F897F3E29FE508400ABF9F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F897F3D29FE508400ABF9F9 /* ViewController.m */; };
+		8F897F4129FE508400ABF9F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F897F3F29FE508400ABF9F9 /* Main.storyboard */; };
+		8F897F4329FE508800ABF9F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F897F4229FE508800ABF9F9 /* Assets.xcassets */; };
+		8F897F4629FE508800ABF9F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F897F4429FE508800ABF9F9 /* LaunchScreen.storyboard */; };
+		8F897F4929FE508800ABF9F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F897F4829FE508800ABF9F9 /* main.m */; };
+		8F897F5429FE58FA00ABF9F9 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F897F5329FE58FA00ABF9F9 /* Task.m */; };
+		8F897F5729FE684600ABF9F9 /* DetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F897F5629FE684600ABF9F9 /* DetailsViewController.m */; };
+		8F897F5A29FE75B900ABF9F9 /* AddTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F897F5929FE75B900ABF9F9 /* AddTaskViewController.m */; };
+		8F897F5E29FEAC3F00ABF9F9 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F897F5D29FEAC3F00ABF9F9 /* EditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F897F3329FE508400ABF9F9 /* NadaYoussef_todoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NadaYoussef_todoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F897F3629FE508400ABF9F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8F897F3729FE508400ABF9F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8F897F3C29FE508400ABF9F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8F897F3D29FE508400ABF9F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8F897F4029FE508400ABF9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8F897F4229FE508800ABF9F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8F897F4529FE508800ABF9F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F897F4729FE508800ABF9F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F897F4829FE508800ABF9F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8F897F5229FE58FA00ABF9F9 /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		8F897F5329FE58FA00ABF9F9 /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		8F897F5529FE684600ABF9F9 /* DetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailsViewController.h; sourceTree = "<group>"; };
+		8F897F5629FE684600ABF9F9 /* DetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailsViewController.m; sourceTree = "<group>"; };
+		8F897F5829FE75B900ABF9F9 /* AddTaskViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddTaskViewController.h; sourceTree = "<group>"; };
+		8F897F5929FE75B900ABF9F9 /* AddTaskViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddTaskViewController.m; sourceTree = "<group>"; };
+		8F897F5B29FE7FC400ABF9F9 /* AddProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddProtocol.h; sourceTree = "<group>"; };
+		8F897F5C29FEAC3F00ABF9F9 /* EditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		8F897F5D29FEAC3F00ABF9F9 /* EditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		8F897F5F29FEB60A00ABF9F9 /* EditProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F897F3029FE508400ABF9F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F897F2A29FE508400ABF9F9 = {
+			isa = PBXGroup;
+			children = (
+				8F897F3529FE508400ABF9F9 /* NadaYoussef_todoApp */,
+				8F897F3429FE508400ABF9F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8F897F3429FE508400ABF9F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F897F3329FE508400ABF9F9 /* NadaYoussef_todoApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F897F3529FE508400ABF9F9 /* NadaYoussef_todoApp */ = {
+			isa = PBXGroup;
+			children = (
+				8F897F3629FE508400ABF9F9 /* AppDelegate.h */,
+				8F897F3729FE508400ABF9F9 /* AppDelegate.m */,
+				8F897F3C29FE508400ABF9F9 /* ViewController.h */,
+				8F897F3D29FE508400ABF9F9 /* ViewController.m */,
+				8F897F3F29FE508400ABF9F9 /* Main.storyboard */,
+				8F897F4229FE508800ABF9F9 /* Assets.xcassets */,
+				8F897F4429FE508800ABF9F9 /* LaunchScreen.storyboard */,
+				8F897F4729FE508800ABF9F9 /* Info.plist */,
+				8F897F4829FE508800ABF9F9 /* main.m */,
+				8F897F5229FE58FA00ABF9F9 /* Task.h */,
+				8F897F5329FE58FA00ABF9F9 /* Task.m */,
+				8F897F5529FE684600ABF9F9 /* DetailsViewController.h */,
+				8F897F5629FE684600ABF9F9 /* DetailsViewController.m */,
+				8F897F5829FE75B900ABF9F9 /* AddTaskViewController.h */,
+				8F897F5929FE75B900ABF9F9 /* AddTaskViewController.m */,
+				8F897F5B29FE7FC400ABF9F9 /* AddProtocol.h */,
+				8F897F5C29FEAC3F00ABF9F9 /* EditViewController.h */,
+				8F897F5D29FEAC3F00ABF9F9 /* EditViewController.m */,
+				8F897F5F29FEB60A00ABF9F9 /* EditProtocol.h */,
+			);
+			path = NadaYoussef_todoApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F897F3229FE508400ABF9F9 /* NadaYoussef_todoApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F897F4C29FE508800ABF9F9 /* Build configuration list for PBXNativeTarget "NadaYoussef_todoApp" */;
+			buildPhases = (
+				8F897F2F29FE508400ABF9F9 /* Sources */,
+				8F897F3029FE508400ABF9F9 /* Frameworks */,
+				8F897F3129FE508400ABF9F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NadaYoussef_todoApp;
+			productName = NadaYoussef_todoApp;
+			productReference = 8F897F3329FE508400ABF9F9 /* NadaYoussef_todoApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F897F2B29FE508400ABF9F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8F897F3229FE508400ABF9F9 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 8F897F2E29FE508400ABF9F9 /* Build configuration list for PBXProject "NadaYoussef_todoApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F897F2A29FE508400ABF9F9;
+			productRefGroup = 8F897F3429FE508400ABF9F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F897F3229FE508400ABF9F9 /* NadaYoussef_todoApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F897F3129FE508400ABF9F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F897F4629FE508800ABF9F9 /* LaunchScreen.storyboard in Resources */,
+				8F897F4329FE508800ABF9F9 /* Assets.xcassets in Resources */,
+				8F897F4129FE508400ABF9F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F897F2F29FE508400ABF9F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F897F5429FE58FA00ABF9F9 /* Task.m in Sources */,
+				8F897F5A29FE75B900ABF9F9 /* AddTaskViewController.m in Sources */,
+				8F897F5729FE684600ABF9F9 /* DetailsViewController.m in Sources */,
+				8F897F5E29FEAC3F00ABF9F9 /* EditViewController.m in Sources */,
+				8F897F3E29FE508400ABF9F9 /* ViewController.m in Sources */,
+				8F897F3829FE508400ABF9F9 /* AppDelegate.m in Sources */,
+				8F897F4929FE508800ABF9F9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8F897F3F29FE508400ABF9F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F897F4029FE508400ABF9F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8F897F4429FE508800ABF9F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8F897F4529FE508800ABF9F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8F897F4A29FE508800ABF9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8F897F4B29FE508800ABF9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F897F4D29FE508800ABF9F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NadaYoussef_todoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.NadaYoussef-todoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F897F4E29FE508800ABF9F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NadaYoussef_todoApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ITI.NadaYoussef-todoApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F897F2E29FE508400ABF9F9 /* Build configuration list for PBXProject "NadaYoussef_todoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F897F4A29FE508800ABF9F9 /* Debug */,
+				8F897F4B29FE508800ABF9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F897F4C29FE508800ABF9F9 /* Build configuration list for PBXNativeTarget "NadaYoussef_todoApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F897F4D29FE508800ABF9F9 /* Debug */,
+				8F897F4E29FE508800ABF9F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8F897F2B29FE508400ABF9F9 /* Project object */;
+}
